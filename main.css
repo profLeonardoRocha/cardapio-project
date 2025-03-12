@@ -35,14 +35,7 @@ main{
 }
 
 .produto{
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    git status
 }
 
 .produto img {
