@@ -11,3 +11,50 @@ header{
     text-align: center;
     padding: 1rem 0;
 }
+
+nav a{
+    color: #333;
+    text-decoration: none;
+    background-color: #ffca28;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    border-radius: 4px;
+}
+
+nav a:hover{
+    background-color: #ffeb3b;
+}
+
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.categoria{
+    margin-bottom: 2rem;
+}
+
+.produto{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Adiciona Media Query para tornar o projeto responsivo */
+@media (min-width: 768px){
+    
+}
